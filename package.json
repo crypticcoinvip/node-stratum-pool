@@ -33,7 +33,7 @@
         "base58-native": "^0.1.4",
         "bignum": "^0.13.0",
         "bitgo-utxo-lib": "git+ssh://git@git.sfxdx.ru:cryptic/bitgo-utxo-lib.git",
-        "equihashverify": "git+https://github.com/s-nomp/equihashverify.git",
+        "equihashverify": "git+ssh://git@git.sfxdx.ru:cryptic/equihashverify.git",
         "verushash": "git+https://github.com/VerusCoin/verushash-node",
         "merkle-bitcoin": "^1.0.2",
         "promise": "^8.0.1"
