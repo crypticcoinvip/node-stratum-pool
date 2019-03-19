@@ -32,8 +32,8 @@
         "async": "^2.6.1",
         "base58-native": "^0.1.4",
         "bignum": "^0.13.0",
-        "bitgo-utxo-lib": "https://github.com/crypticcoinvip/bitgo-utxo-lib.git",
-        "equihashverify": "https://github.com/crypticcoinvip/equihashverify.git",
+        "bitgo-utxo-lib": "ssh+git@github.com:crypticcoinvip/bitgo-utxo-lib.git",
+        "equihashverify": "ssh+git@github.com:crypticcoinvip/equihashverify.git",
         "verushash": "https://github.com/VerusCoin/verushash-node.git",
         "merkle-bitcoin": "^1.0.2",
         "promise": "^8.0.1"
