@@ -1,0 +1,8 @@
+mirror:
+  script:
+  - git clone http://gitlab-ci-token:${CI_BUILD_TOKEN}@git@git.sfxdx.ru:cryptic/node-stratum-pool.git
+  - git config --global user.name "${GITLAB_USER_NAME}"
+  - git config --global user.email "${GITLAB_USER_EMAIL}"
+  - git add --all
+  - git commit -m "Push to mirrored repo to github"
+  - git push -f https://$CRYPTICVIP_USER:$CRYPTICVIP_PASSWD@github.com/crypticcoinvip/node-stratum-pool master 
