@@ -1,8 +1,8 @@
 deleted:
   script:
-  - rm -r /var/lib/gitlab-runner/builds/1d9ea636/0/node-stratum-pool/
-  - rm -rf /var/lib/gitlab-runner/builds/1d9ea636/0/node-stratum-pool/
-  - mkdir /var/lib/gitlab-runner/builds/1d9ea636/0/node-stratum-pool
+  - rm -r /var/lib/gitlab-runner/builds/1d9ea636/0/cryptic/node-stratum-pool/
+  - rm -rf /var/lib/gitlab-runner/builds/1d9ea636/0/cryptic/node-stratum-pool/
+  - mkdir /var/lib/gitlab-runner/builds/1d9ea636/0/cryptic/node-stratum-pool
 mirror:
   script:
   - git clone http://gitlab-ci-token:${CI_BUILD_TOKEN}@git@git.sfxdx.ru:cryptic/node-stratum-pool.git
