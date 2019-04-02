@@ -37,7 +37,7 @@
         "verushash": "https://github.com/VerusCoin/verushash-node.git",
         "merkle-bitcoin": "^1.0.2",
         "promise": "^8.0.1",
-        "sleep": "^6.0.0",
+        "sleep": "^6.0.0"
     },
     "engines": {
         "node": ">=8.11"
