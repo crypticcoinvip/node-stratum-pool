@@ -36,7 +36,8 @@
         "equihashverify": "git+https://github.com/crypticcoinvip/equihashverify.git",
         "verushash": "https://github.com/VerusCoin/verushash-node.git",
         "merkle-bitcoin": "^1.0.2",
-        "promise": "^8.0.1"
+        "promise": "^8.0.1",
+        "sleep": "^6.0.0"
     },
     "engines": {
         "node": ">=8.11"
